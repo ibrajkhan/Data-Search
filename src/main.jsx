@@ -11,6 +11,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import ConferenceQASystems from "./components/QuestionBox.jsx";
 import TopicQuestions from "./components/QuestionBox.jsx";
+import Caho from "./Caho.jsx";
 
 // createRoot(document.getElementById("root")).render(
 //   <StrictMode>
@@ -26,7 +27,7 @@ import TopicQuestions from "./components/QuestionBox.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Caho />,
   },
   {
     path: "/conferenceQASystem/",
